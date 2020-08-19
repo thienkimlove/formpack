@@ -3,7 +3,7 @@
 
 # It doesn't seem like pip honors `dependency_links` in setup.py, so install
 # any forked packages here, prior to `-e .`
--e git+https://github.com/jnm/geojson-rewind/tarball/master#egg=geojson-rewind
+-e git+https://github.com/jnm/geojson-rewind/tarball/master#egg=geojson-rewind-0.1.1+py2.jnm
 
 # Install this package
 -e .
